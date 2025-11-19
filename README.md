@@ -43,3 +43,10 @@ If you use StackMFF in your research, please cite the relevant version(s) approp
 ```
 </details>
 
+## Contact & Collaboration
+
+If you have any questions or encounter any issues while using the StackMFF series, please feel free to contact us at **xiexinzhe@zju.edu.cn**. We warmly welcome collaboration and encourage researchers to build upon the StackMFF series for further research and development.
+
+---
+
+**We look forward to seeing your innovative work based on StackMFF!** 🚀
