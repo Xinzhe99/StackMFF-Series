@@ -3,7 +3,6 @@
 </div>
 
 <div align="center">
-  <h1>StackMFF Series</h1>
   <p><strong>Official Implementations of StackMFF Series Multi-Focus Image Fusion Algorithms</strong></p>
 </div>
 
