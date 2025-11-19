@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="200" height="200" fill="#ffffff"/>
+
+  <!-- 渐变定义 -->
+  <defs>
+    <!-- 层叠图像的渐变 -->
+    <linearGradient id="layerA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7fc8f8"/>
+      <stop offset="100%" stop-color="#d8eafd"/>
+    </linearGradient>
+    <linearGradient id="layerB" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9be7d9"/>
+      <stop offset="100%" stop-color="#c9f1ee"/>
+    </linearGradient>
+    <linearGradient id="layerC" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b5b9ff"/>
+      <stop offset="100%" stop-color="#e6e8ff"/>
+    </linearGradient>
+
+    <!-- 中心融合光晕 -->
+    <radialGradient id="fusionGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#a2e2ff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 模拟多焦点叠加 -->
+  <rect x="38" y="38" width="120" height="120" rx="14" fill="url(#layerA)" opacity="0.5" transform="rotate(-2 98 98)"/>
+  <rect x="48" y="48" width="120" height="120" rx="14" fill="url(#layerB)" opacity="0.55" transform="rotate(1 102 102)"/>
+  <rect x="58" y="58" width="120" height="120" rx="14" fill="url(#layerC)" opacity="0.6" transform="rotate(-1 108 108)"/>
+
+  <!-- 中心融合光晕 -->
+  <circle cx="100" cy="100" r="30" fill="url(#fusionGlow)" opacity="0.9"/>
+
+  <!-- 中心聚焦点 -->
+  <circle cx="100" cy="100" r="6" fill="#3eb7c5"/>
+</svg>
