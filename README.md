@@ -4,13 +4,13 @@ Welcome to the **StackMFF Series** repository, which serves as the central hub f
 
 ## Repository List
 
-| Method | Description | Link |
-|--------|-------------|------|
-| StackMFF | End-to-end image stack fusion network | [GitHub](https://github.com/Xinzhe99/StackMFF) |
-| StackMFF V2 | Image stack fusion network based on focal plane depth regression | [GitHub](https://github.com/Xinzhe99/StackMFF-V2) |
-| StackMFF V3 | General image stack fusion network based on pixel-level classification | [GitHub](https://github.com/Xinzhe99/StackMFF-V3) |
-| StackMFF V4 | Upgraded version of StackMFF V3 with enhanced fusion performance | [GitHub](https://github.com/Xinzhe99/StackMFF-V4) |
-| GMFF | Generative multi-focus image fusion network leveraging latent diffusion models | [GitHub](https://github.com/Xinzhe99/GMFF) |
+| Method | Description | Code | Paper |
+|--------|-------------|------|-------|
+| StackMFF | End-to-end image stack fusion network | [📂 GitHub](https://github.com/Xinzhe99/StackMFF) | [📄 Paper](https://link.springer.com/article/10.1007/s10489-025-06383-8) |
+| StackMFF V2 | Image stack fusion network based on focal plane depth regression | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V2) | [📄 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) |
+| StackMFF V3 | General image stack fusion network based on pixel-level classification | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V3) | *Under Review* |
+| StackMFF V4 | Upgraded version of StackMFF V3 with enhanced fusion performance | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V4) | *Under Review* |
+| GMFF | Generative multi-focus image fusion network leveraging latent diffusion models | [📂 GitHub](https://github.com/Xinzhe99/GMFF) | *Under Review* |
 
 ## Citation
 
@@ -18,4 +18,4 @@ If you use StackMFF in your research, please cite the relevant version(s) approp
 
 ---
 
-For detailed documentation, examples, and installation instructions, please visit the individual repositories.
+We welcome researchers to collaborate with us and hope more researchers will contribute to the development and advancement of the StackMFF series.
