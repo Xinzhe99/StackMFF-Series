@@ -2,7 +2,24 @@
   <img src="logo_stackmff_series.svg" alt="StackMFF Series Logo" width="800"/>
 </div>
 
-Welcome to the StackMFF Series repository, which serves as the central hub for the official code implementations of the StackMFF multi-focus image fusion algorithms. This repository provides links to all released versions of StackMFF, enabling researchers and developers to access, explore, and reproduce the corresponding results.
+<div align="center">
+  <h1>StackMFF Series</h1>
+  <p><strong>Official Implementations of StackMFF Multi-Focus Image Fusion Algorithms</strong></p>
+</div>
+
+<div align="center">
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
+
+</div>
+
+---
+
+## 📖 Overview
+
+Welcome to the **StackMFF Series** repository — the central hub for state-of-the-art multi-focus image fusion algorithms. This collection encompasses multiple versions of StackMFF, each advancing the field with novel architectures and techniques. From end-to-end fusion networks to generative diffusion-based approaches, our series enables researchers and developers to access, explore, and reproduce cutting-edge results in multi-focus image fusion.
 
 ## Table of Contents
 
@@ -10,22 +27,36 @@ Welcome to the StackMFF Series repository, which serves as the central hub for t
 - [Citation](#citation)
 - [Contact & Collaboration](#contact--collaboration)
 
-## Repository List
+## 🚀 Repository List
 
-| Method | Description | Code | Paper |
-|--------|-------------|------|-------|
-| StackMFF | End-to-end image stack fusion network | [📂 GitHub](https://github.com/Xinzhe99/StackMFF) | [📄 Paper](https://link.springer.com/article/10.1007/s10489-025-06383-8) |
-| StackMFF V2 | Image stack fusion network based on focal plane depth regression | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V2) | [📄 Paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) |
-| StackMFF V3 | General image stack fusion network based on pixel-level classification | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V3) | ⚠️ *Under Review* |
-| StackMFF V4 | Upgraded version of StackMFF V3 with enhanced fusion performance | [📂 GitHub](https://github.com/Xinzhe99/StackMFF-V4) | ⚠️ *Under Review* |
-| GMFF | Generative multi-focus image fusion network leveraging latent diffusion models | [📂 GitHub](https://github.com/Xinzhe99/GMFF) | ⚠️ *Under Review* |
+<div align="center">
 
-## Citation
+| **Method** | **Code** | **Paper** | **Status** |
+|:----------:|:--------:|:---------:|:----------:|
+| **StackMFF** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
+| **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
+| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | ⚠️ *Under Review* | 🔄 In Review |
+| **StackMFF V4** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | ⚠️ *Under Review* | 🔄 In Review |
+| **GMFF** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/GMFF) | ⚠️ *Under Review* | 🔄 In Review |
 
-If you use StackMFF in your research, please cite the relevant version(s) appropriately.  
+</div>
+
+### 📚 Series Highlights
+
+- **StackMFF**: Pioneering end-to-end multi-focus image stack fusion network
+- **StackMFF V2**: One-shot fusion via focal depth regression 
+- **StackMFF V3**: Pixel-level classification for general image stack fusion
+- **StackMFF V4**: Enhanced fusion performance with architectural improvements
+- **GMFF**: Generative approach leveraging latent diffusion models
+
+## 📝 Citation
+
+If you find the StackMFF series useful in your research, please consider citing the relevant version(s):
 
 <details>
-<summary>Click to expand published citations</summary>
+<summary><strong>📄 Click to expand BibTeX citations</strong></summary>
+
+---
 
 ```bibtex
 @article{xie2025stackmff,
@@ -49,12 +80,27 @@ If you use StackMFF in your research, please cite the relevant version(s) approp
   publisher={Elsevier}
 }
 ```
-</details>
-
-## Contact & Collaboration
-
-If you have any questions or encounter any issues while using the StackMFF series, please feel free to contact us at **xiexinzhe@zju.edu.cn**. We warmly welcome collaboration and encourage researchers to build upon the StackMFF series for further research and development.
 
 ---
 
+</details>
+
+## 📧 Contact & Collaboration
+
+We welcome questions, feedback, and collaboration opportunities! 
+
+- 📮 **Email**: [xiexinzhe@zju.edu.cn](mailto:xiexinzhe@zju.edu.cn)
+- 💡 **Issues**: Feel free to open issues in the respective repositories
+- 🤝 **Collaboration**: We encourage researchers to build upon the StackMFF series
+
+---
+
+<div align="center">
+
+### ⭐ Star this repository if you find it helpful!
+
 **We look forward to seeing your innovative work based on StackMFF!** 🚀
+
+<sub>© 2025 StackMFF Series. All rights reserved.</sub>
+
+</div>
