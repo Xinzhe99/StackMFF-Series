@@ -20,7 +20,7 @@
 
 Welcome to the **StackMFF Series** repository — the central hub for state-of-the-art multi-focus image fusion algorithms. This collection encompasses multiple versions of StackMFF, each advancing the field with novel architectures and techniques. From end-to-end fusion networks to generative diffusion-based approaches, our series enables researchers and developers to access, explore, and reproduce cutting-edge results in multi-focus image fusion.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Repository List](#repository-list)
 - [Citation](#citation)
@@ -32,11 +32,11 @@ Welcome to the **StackMFF Series** repository — the central hub for state-of-t
 
 | **Method** | **Code** | **Paper** | **Status** |
 |:----------:|:--------:|:---------:|:----------:|
-| **StackMFF** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
-| **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
-| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | ⚠️ *Under Review* | 🔄 In Review |
-| **StackMFF V4** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | ⚠️ *Under Review* | 🔄 In Review |
-| **GMFF** | [<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/GMFF) | ⚠️ *Under Review* | 🔄 In Review |
+| **StackMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
+| **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
+| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | ⚠️ *Under Review* | 🔄 In Review |
+| **StackMFF V4** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | ⚠️ *Under Review* | 🔄 In Review |
+| **GMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/GMFF) | ⚠️ *Under Review* | 🔄 In Review |
 
 </div>
 
@@ -51,9 +51,6 @@ Welcome to the **StackMFF Series** repository — the central hub for state-of-t
 ## 📝 Citation
 
 If you find the StackMFF series useful in your research, please consider citing the relevant version(s):
-
-<details>
-<summary><strong>📄 Click to expand BibTeX citations</strong></summary>
 
 ---
 
@@ -81,8 +78,6 @@ If you find the StackMFF series useful in your research, please consider citing 
 ```
 
 ---
-
-</details>
 
 ## 📧 Contact & Collaboration
 
