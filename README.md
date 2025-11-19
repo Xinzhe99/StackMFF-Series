@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="stackmff-series-logo.svg" alt="StackMFF Series Logo" width="400"/>
-</div>
+
 
 # StackMFF Series
 
