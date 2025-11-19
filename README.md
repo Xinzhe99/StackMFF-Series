@@ -43,4 +43,3 @@ If you use StackMFF in your research, please cite the relevant version(s) approp
 ```
 </details>
 
-We welcome researchers to collaborate with us and hope more researchers will contribute to the development and advancement of the StackMFF series.
