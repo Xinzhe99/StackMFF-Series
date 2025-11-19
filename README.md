@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="stackmff-series-logo.svg" alt="StackMFF Series Logo" width="400"/>
+</div>
+
 # StackMFF Series
 
 Welcome to the StackMFF Series repository, which serves as the central hub for the official code implementations of the StackMFF multi-focus image fusion algorithms. This repository provides links to all released versions of StackMFF, enabling researchers and developers to access, explore, and reproduce the corresponding results.
