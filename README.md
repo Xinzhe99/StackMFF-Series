@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="stackmff-series-logo.svg" alt="StackMFF Series Logo" width="400"/>
+  <img src="Stackmff-series-logo.svg" alt="StackMFF Series Logo" width="400"/>
 </div>
 
 # StackMFF Series
