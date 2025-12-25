@@ -20,6 +20,13 @@
 
 Welcome to the **StackMFF Series** repository — the central hub for state-of-the-art multi-focus image fusion algorithms. This collection encompasses multiple versions of StackMFF, each advancing the field with novel architectures and techniques. From end-to-end fusion networks to generative diffusion-based approaches, our series enables researchers and developers to access, explore, and reproduce cutting-edge results in multi-focus image fusion.
 
+## 📢 News
+
+> [!NOTE]
+
+> 🎉 **2025.12.05**: We have developed OpenFocus, a tool comparable to commercial-grade depth-of-field stack software. It has been officially released — feel free to try it!  
+You can access it here: [https://github.com/Xinzhe99/OpenFocus](https://github.com/Xinzhe99/OpenFocus)
+
 ## 📚 Table of Contents
 
 - [Repository List](#repository-list)
