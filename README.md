@@ -22,8 +22,7 @@ Welcome to the **StackMFF Series** repository — the central hub for state-of-t
 
 ## 📢 News
 
-> 🎉 **2025.12.05**: We have developed OpenFocus, a tool comparable to commercial-grade depth-of-field stack software. It has been officially released — feel free to try it!  
-You can access it here: [https://github.com/Xinzhe99/OpenFocus](https://github.com/Xinzhe99/OpenFocus)
+> 🎉 **2025.12.05**: We have developed OpenFocus, a tool comparable to commercial-grade depth-of-field stack software. It has been officially released — feel free to try it! You can access it here: [https://github.com/Xinzhe99/OpenFocus](https://github.com/Xinzhe99/OpenFocus)
 
 ## 📚 Table of Contents
 
