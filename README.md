@@ -70,7 +70,7 @@ If you find the StackMFF series useful in your research, please consider citing 
   publisher={Springer}
 }
 
-@article{xie2025one,
+@article{xie2025stackmffv2,
   title={One-shot multi-focus image stack fusion via focal depth regression},
   author={Xie, Xinzhe and Guo, Buyu and He, Shuangyan and Gu, Yanzhen and Li, Yanjun and Li, Peiliang},
   journal={Engineering Applications of Artificial Intelligence},
@@ -78,6 +78,22 @@ If you find the StackMFF series useful in your research, please consider citing 
   pages={112667},
   year={2025},
   publisher={Elsevier}
+}
+
+@article{xie2025stackmffv3,
+  title        = {General Multi-focus Image Fusion Network},
+  author       = {Xie, Xinzhe and Guo, Buyu and Li, Bolin and He, Shuangyan and Gu, Yanzhen and Jiang, Qingyan and Li, Peiliang},
+  year         = {2025},
+  note         = {Available at SSRN: \url{https://ssrn.com/abstract=5954614} or \url{http://dx.doi.org/10.2139/ssrn.5954614}},
+  journal      = {SSRN Electronic Journal},
+  doi          = {10.2139/ssrn.5954614}
+}
+
+@article{xie2025stackmffv4,
+  title={Generative Multi-Focus Image Fusion},
+  author={Xie, Xinzhe and Guo, Buyu and Li, Bolin and He, Shuangyan and Gu, Yanzhen and Jiang, Qingyan and Li, Peiliang},
+  journal={arXiv preprint arXiv:2512.21495},
+  year={2025}
 }
 ```
 
