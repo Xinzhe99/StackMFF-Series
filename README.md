@@ -38,11 +38,12 @@ Welcome to the **StackMFF Series** repository — the central hub for state-of-t
 |:----------:|:--------:|:---------:|:----------:|
 | **StackMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF) | [<img src="https://img.shields.io/badge/Paper-Applied_Intelligence-blue?style=for-the-badge" alt="Paper"/>](https://link.springer.com/article/10.1007/s10489-025-06383-8) | ✅ Published |
 | **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
-| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | ⚠️ *Under Review* | 🔄 In Review |
+| **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | [<img src="https://img.shields.io/badge/Preprint-SSRN-orange?style=for-the-badge" alt="Preprint"/>](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | 🔄 In Review |
 | **StackMFF V4** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | ⚠️ *Under Review* | 🔄 In Review |
-| **GMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/GMFF) | ⚠️ *Under Review* | 🔄 In Review |
+| **GMFF** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/GMFF) | [<img src="https://img.shields.io/badge/Preprint-arXiv-orange?style=for-the-badge" alt="Preprint"/>](https://arxiv.org/abs/2512.21495) | 🔄 In Review |
 
 </div>
+
 
 ### 📚 Series Highlights
 
