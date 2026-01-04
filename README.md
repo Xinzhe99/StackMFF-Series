@@ -40,8 +40,10 @@ Welcome to the **StackMFF Series** repository — the central hub for state-of-t
 | **StackMFF V2** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V2) | [<img src="https://img.shields.io/badge/Paper-EAAI-blue?style=for-the-badge" alt="Paper"/>](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | ✅ Published |
 | **StackMFF V3** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V3) | [<img src="https://img.shields.io/badge/Preprint-SSRN-orange?style=for-the-badge" alt="Preprint"/>](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | 🔄 In Review |
 | **StackMFF V4 (GMFF)** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V4) | [<img src="https://img.shields.io/badge/Preprint-arXiv-orange?style=for-the-badge" alt="Preprint"/>](https://arxiv.org/abs/2512.21495) | 🔄 In Review |
+| **StackMFF V5** | [<img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub"/>](https://github.com/Xinzhe99/StackMFF-V5) | - | 🔬 Researching |
 
 </div>
+
 
 
 
