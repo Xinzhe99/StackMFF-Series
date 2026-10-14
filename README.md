@@ -1,3 +1,8 @@
+> [!NOTE]
+> **Update / 更新 (2026-10).** The repositories **StackMFF-V3** and **StackMFF-V4** listed below are deprecated: the two methods have been merged and redesigned into a new, unified **StackMFF V3**, which will be released in a new repository and linked here. StackMFF and StackMFF V2 are unchanged.
+>
+> 下方的 StackMFF-V3 与 StackMFF-V4 仓库已废弃：两者已合并并重新设计为新的统一版 StackMFF V3，将在新仓库发布并在此给出链接。StackMFF 与 StackMFF V2 不受影响。
+
 <div align="center">
   <img src="logo_stackmff_series.svg" alt="StackMFF Series Logo" width="800"/>
 </div>
