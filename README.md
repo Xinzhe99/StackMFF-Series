@@ -17,7 +17,7 @@
 > [!IMPORTANT]
 > **2026-10 — StackMFF V3 and V4 have been unified.** The former StackMFF V3 (SSRN preprint) and StackMFF V4 (the
 > deterministic stage of GMFF) were merged and redesigned into a single, new **StackMFF V3**: StackMFF V3: Modernizing Multi-Focus Image Stack Fusion.
-> Its code, weights, evaluation toolkit and all fused results of 32 re-evaluated methods will be public in
+> Its code, weights, evaluation toolkit and the fused results of the model will be public in
 > [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) together with the paper. The old repositories are kept as
 > read-only archives: [StackMFF-V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy),
 > [StackMFF-V4](https://github.com/Xinzhe99/StackMFF-V4).
