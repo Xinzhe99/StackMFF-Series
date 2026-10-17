@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="StackMFF Series">
+  <title>StackMFF Series</title>
+  <rect width="128" height="128" rx="28" fill="#244A68"/>
+  <!-- three generations of the series, stacked; the newest is in focus (white with an accent dot) -->
+  <rect x="22" y="72" width="54" height="34" rx="7" fill="#DBE9F2" opacity="0.38"/>
+  <rect x="37" y="52" width="54" height="34" rx="7" fill="#DBE9F2" opacity="0.62"/>
+  <rect x="52" y="30" width="54" height="34" rx="7" fill="#FFFFFF"/>
+  <circle cx="79" cy="47" r="7" fill="#B23A48"/>
+</svg>

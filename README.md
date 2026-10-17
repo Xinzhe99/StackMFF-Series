@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="assets/logo_stackmff_series.svg" alt="StackMFF Series" width="620"/>
+<img src="assets/series_icon.svg" alt="StackMFF Series" width="96"/>
+
+# StackMFF Series
 
 ### Learning-based multi-focus image stack fusion: from end-to-end regression to order-free pixel-wise classification
 
