@@ -47,7 +47,6 @@ over. Each version changes what the network predicts:
 | **StackMFF V2** | one-shot fusion by focal-depth regression | [EAAI 2025](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | [StackMFF-V2](https://github.com/Xinzhe99/StackMFF-V2) | ✅ published |
 | **StackMFF V3** (unified) | pixel-wise classification over the images with a permutation-equivariant attention network | StackMFF V3: Modernizing Multi-Focus Image Stack Fusion | [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) | 📝 under review; public with the paper |
 | **GMFF** | generative restoration on top of deterministic stack fusion (its deterministic stage was StackMFF V4) | [arXiv 2512.21495](https://arxiv.org/abs/2512.21495) | [GMFF](https://github.com/Xinzhe99/GMFF) | 📝 preprint |
-| **StackMFF V5** | experimental | — | [StackMFF-V5](https://github.com/Xinzhe99/StackMFF-V5) | 🧪 experimental, no paper planned |
 | **OpenFocus** | open-source focus stacking software (GUI + CLI) | — | [OpenFocus](https://github.com/Xinzhe99/OpenFocus) | ✅ released |
 | *Archived* | former StackMFF V3 / StackMFF V4 | [SSRN 5954614](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | [V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy), [V4](https://github.com/Xinzhe99/StackMFF-V4) | 🗄️ superseded by the unified V3 |
 
@@ -77,14 +76,6 @@ full-reference and two no-reference metrics is in the paper and the [StackMFF-V3
 | StackMFF | 6.08 | 37.37 | 0.33 | small (≤ 0.004 SSIM) |
 | StackMFF V2 | 0.05 | 5.50 | 0.10 | −0.166 SSIM, −7.9 dB |
 | **StackMFF V3** | 0.16 | 1.94 (3.03 with two inference scales) | 0.10 (0.16) | **none (identical output)** |
-
-## StackMFF V5: an open invitation
-
-StackMFF V5 is an **experimental** project. It will most likely **not** become a paper; we keep it open as a
-playground. We would be glad to see someone build a real StackMFF V5 on top of this work, and we are happy to help:
-the unified StackMFF V3 releases its training data synthesis, code, weights, the evaluation toolkit and the fused
-results of every compared method, so a new method can be compared with all of them under the same protocol.
-Ideas, issues and collaborations are very welcome (contact below).
 
 
 ## OpenFocus
