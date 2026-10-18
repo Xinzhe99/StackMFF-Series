@@ -20,8 +20,8 @@
 > **2026-10 — StackMFF V3 and V4 have been unified.** The former StackMFF V3 (SSRN preprint) and StackMFF V4 (the
 > deterministic stage of GMFF) were merged and redesigned into a single, new **StackMFF V3**: Modernizing Multi-Focus Image Stack Fusion.
 > Its code, weights, evaluation toolkit and the fused results of the model are public in
-> [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3); the paper is under review. The old repositories are kept as
-> read-only archives: [StackMFF-V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy),
+> [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3); the manuscript is being prepared for submission. The old repositories are kept as
+> historical code snapshots: [StackMFF-V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy),
 > [StackMFF-V4-legacy](https://github.com/Xinzhe99/StackMFF-V4-legacy).
 >
 
@@ -47,9 +47,9 @@ over. Each version changes what the network predicts:
 |---|---|---|---|---|
 | **StackMFF** | end-to-end 3D network for stack fusion | [Applied Intelligence 2025](https://link.springer.com/article/10.1007/s10489-025-06383-8) | [StackMFF](https://github.com/Xinzhe99/StackMFF) | ✅ published |
 | **StackMFF V2** | one-shot fusion by focal-depth regression | [EAAI 2025](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | [StackMFF-V2](https://github.com/Xinzhe99/StackMFF-V2) | ✅ published |
-| **StackMFF V3** (unified) | pixel-wise classification over the images with a permutation-equivariant attention network | StackMFF V3: Modernizing Multi-Focus Image Stack Fusion | [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) | 📝 under review; code and results released |
+| **StackMFF V3** (unified) | pixel-wise classification over the images with a permutation-equivariant attention network | StackMFF V3: Modernizing Multi-Focus Image Stack Fusion | [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) | 📝 manuscript in preparation; code and model outputs released |
 | **OpenFocus** | open-source focus stacking software (GUI + CLI) | — | [OpenFocus](https://github.com/Xinzhe99/OpenFocus) | ✅ released |
-| *Archived* | GMFF: generative restoration on top of deterministic stack fusion (its deterministic stage was StackMFF V4) | [arXiv 2512.21495](https://arxiv.org/abs/2512.21495) | [GMFF](https://github.com/Xinzhe99/GMFF) | 🗄️ deprecated, superseded by the unified V3 |
+| *Archived* | GMFF: generative restoration on top of deterministic stack fusion (its deterministic stage was StackMFF V4) | [arXiv 2512.21495](https://arxiv.org/abs/2512.21495) | [historical deterministic stage](https://github.com/Xinzhe99/StackMFF-V4-legacy) | preprint; deterministic fusion component developed further in V3 |
 | *Archived* | former StackMFF V3 / StackMFF V4 | [SSRN 5954614](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | [V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy), [V4-legacy](https://github.com/Xinzhe99/StackMFF-V4-legacy) | 🗄️ superseded by the unified V3 |
 
 ### What happened to StackMFF V3 and V4?
@@ -58,12 +58,12 @@ The former StackMFF V3 introduced the classification formulation with a convolut
 the network and served as the deterministic stage of GMFF. Both were developed in parallel and were never published
 in a journal. We merged them into one study, replaced the network by an attention network that does not use the
 order of the images, re-designed the training data synthesis and the loss, and re-evaluated all methods with one
-toolkit. The result is the unified **StackMFF V3**; it supersedes both earlier versions.
+toolkit. The result is the unified **StackMFF V3**; it supersedes their deterministic fusion components; GMFF's generative restoration remains a separate preprint contribution.
 
 ## Latest results
 
 All methods re-evaluated from their result images with one toolkit (cross-checked against MATLAB references) on four
-stack benchmarks. SSIM / PSNR (dB), higher is better. From the StackMFF V3 paper; the full table with all 32 methods, five
+stack benchmarks. SSIM / PSNR (dB), higher is better. From the StackMFF V3 paper; the full comparison with 32 baseline families, five
 full-reference and two no-reference metrics is in the paper and the [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) repository.
 
 | Method | Mobile Depth | Middlebury | FlyingThings3D | Road-MF |
@@ -77,7 +77,7 @@ full-reference and two no-reference metrics is in the paper and the [StackMFF-V3
 |---|---|---|---|---|
 | StackMFF | 6.08 | 37.37 | 0.33 | small (≤ 0.004 SSIM) |
 | StackMFF V2 | 0.05 | 5.50 | 0.10 | −0.166 SSIM, −7.9 dB |
-| **StackMFF V3** | 0.16 | 1.94 (3.03 with two inference scales) | 0.10 (0.16) | **none (identical output)** |
+| **StackMFF V3** | 0.16 | 1.94 (3.03 with two inference scales) | 0.10 (0.16) | **up to floating-point error; hard near-ties can differ** |
 
 
 ## OpenFocus
@@ -94,7 +94,7 @@ If the StackMFF series helps your research, please cite the relevant work(s):
 ```bibtex
 @article{xie2025stackmff,
   title   = {StackMFF: end-to-end multi-focus image stack fusion network},
-  author  = {Xie, Xinzhe and Qingyan, Jiang and Chen, Dong and Guo, Buyu and Li, Peiliang and Zhou, Sangjun},
+  author  = {Xie, Xinzhe and Jiang, Qingyan and Chen, Dong and Guo, Buyu and Li, Peiliang and Zhou, Sangjun},
   journal = {Applied Intelligence},
   volume  = {55},
   number  = {6},
@@ -114,7 +114,7 @@ If the StackMFF series helps your research, please cite the relevant work(s):
 @article{xie2026stackmffv3,
   title   = {StackMFF V3: Modernizing Multi-Focus Image Stack Fusion},
   author  = {Xie, Xinzhe and others},
-  note    = {Under review},
+  note    = {Manuscript in preparation},
   year    = {2026}
 }
 
