@@ -6,10 +6,10 @@
 
 ### Learning-based multi-focus image stack fusion: from end-to-end regression to order-free pixel-wise classification
 
-[![Stars](https://img.shields.io/github/stars/Xinzhe99/StackMFF-Series?style=social)](https://github.com/Xinzhe99/StackMFF-Series)
-[![StackMFF](https://img.shields.io/github/stars/Xinzhe99/StackMFF?label=StackMFF&style=social)](https://github.com/Xinzhe99/StackMFF)
-[![StackMFF V2](https://img.shields.io/github/stars/Xinzhe99/StackMFF-V2?label=StackMFF%20V2&style=social)](https://github.com/Xinzhe99/StackMFF-V2)
-[![OpenFocus](https://img.shields.io/github/stars/Xinzhe99/OpenFocus?label=OpenFocus&style=social)](https://github.com/Xinzhe99/OpenFocus)
+[![Stars](https://img.shields.io/github/stars/Xinzhe99/StackMFF-Series?cacheSeconds=3600&style=social)](https://github.com/Xinzhe99/StackMFF-Series)
+[![StackMFF](https://img.shields.io/github/stars/Xinzhe99/StackMFF?cacheSeconds=3600&label=StackMFF&style=social)](https://github.com/Xinzhe99/StackMFF)
+[![StackMFF V2](https://img.shields.io/github/stars/Xinzhe99/StackMFF-V2?cacheSeconds=3600&label=StackMFF%20V2&style=social)](https://github.com/Xinzhe99/StackMFF-V2)
+[![OpenFocus](https://img.shields.io/github/stars/Xinzhe99/OpenFocus?cacheSeconds=3600&label=OpenFocus&style=social)](https://github.com/Xinzhe99/OpenFocus)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
@@ -48,8 +48,8 @@ over. Each version changes what the network predicts:
 | **StackMFF** | end-to-end 3D network for stack fusion | [Applied Intelligence 2025](https://link.springer.com/article/10.1007/s10489-025-06383-8) | [StackMFF](https://github.com/Xinzhe99/StackMFF) | ✅ published |
 | **StackMFF V2** | one-shot fusion by focal-depth regression | [EAAI 2025](https://www.sciencedirect.com/science/article/abs/pii/S0952197625026983) | [StackMFF-V2](https://github.com/Xinzhe99/StackMFF-V2) | ✅ published |
 | **StackMFF V3** (unified) | pixel-wise classification over the images with a permutation-equivariant attention network | StackMFF V3: Modernizing Multi-Focus Image Stack Fusion | [StackMFF-V3](https://github.com/Xinzhe99/StackMFF-V3) | 📝 under review; code and results released |
-| *Archived* | GMFF: generative restoration on top of deterministic stack fusion (its deterministic stage was StackMFF V4) | [arXiv 2512.21495](https://arxiv.org/abs/2512.21495) | [GMFF](https://github.com/Xinzhe99/GMFF) | 🗄️ deprecated, superseded by the unified V3 |
 | **OpenFocus** | open-source focus stacking software (GUI + CLI) | — | [OpenFocus](https://github.com/Xinzhe99/OpenFocus) | ✅ released |
+| *Archived* | GMFF: generative restoration on top of deterministic stack fusion (its deterministic stage was StackMFF V4) | [arXiv 2512.21495](https://arxiv.org/abs/2512.21495) | [GMFF](https://github.com/Xinzhe99/GMFF) | 🗄️ deprecated, superseded by the unified V3 |
 | *Archived* | former StackMFF V3 / StackMFF V4 | [SSRN 5954614](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5954614) | [V3-legacy](https://github.com/Xinzhe99/StackMFF-V3-legacy), [V4-legacy](https://github.com/Xinzhe99/StackMFF-V4-legacy) | 🗄️ superseded by the unified V3 |
 
 ### What happened to StackMFF V3 and V4?
